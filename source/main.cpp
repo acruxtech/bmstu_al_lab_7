@@ -3,6 +3,7 @@
 #include <vector>
 
 #include "../include/task1.hpp"
+#include "../include/task2.hpp"
 
 
 
@@ -29,6 +30,33 @@ int main() {
             break;
         }
         case 2: {
+            std::vector<BookManager::Book> books = {
+                BookManager::Book {
+                    "Лев Толстой",
+                    "Война и мир",
+                    1869
+                },
+                BookManager::Book {
+                    "Фёдор Достоевский",
+                    "Преступление и наказание",
+                    1866
+                },
+                BookManager::Book {
+                    "Антон Чехов",
+                    "Дядя Ваня",
+                    1897
+                }
+            };
+            BookManager::saveToFile("task2.txt", books);
+
+            std::vector<BookManager::Book> out_books = {};
+            loadFromFile("task2.txt", out_books);
+            for (BookManager::Book book : out_books) {
+                std::cout << book.Author << " " << book.Title << " " << book.Year << std::endl;
+            }
+            break;
+        }
+        case 3: {
             std::cout << "not implemented" << std::endl;
             break;
         }  
