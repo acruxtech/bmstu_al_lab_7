@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/bmstu_al_lab_7.dir/source/main.cpp.o CMakeFiles/bmstu_al_lab_7.dir/source/task1.cpp.o CMakeFiles/bmstu_al_lab_7.dir/source/task2.cpp.o -o bmstu_al_lab_7
