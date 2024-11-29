@@ -1,3 +1,0 @@
-/home/acruxtech/Documents/study/bmstu_al/semester_1/labs/2024_11_16/CMakeFiles/bmstu_al_lab_7.dir
-/home/acruxtech/Documents/study/bmstu_al/semester_1/labs/2024_11_16/CMakeFiles/edit_cache.dir
-/home/acruxtech/Documents/study/bmstu_al/semester_1/labs/2024_11_16/CMakeFiles/rebuild_cache.dir
