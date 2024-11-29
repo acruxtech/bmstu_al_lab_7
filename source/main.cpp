@@ -20,10 +20,10 @@ int main() {
                 "bye",
                 "bye",
             };
-            saveToFile("task1.txt", words);
+            WordManager::saveToFile("task1.txt", words);
 
             std::vector<std::string> out_words = {};
-            loadFromFile("task1.txt", out_words);
+            WordManager::loadFromFile("task1.txt", out_words);
             for (std::string word : out_words) {
                 std::cout << word << std::endl;
             }
